@@ -1,0 +1,9 @@
+trivia = {
+    "question": "Which is a color",
+        "answers": {
+                "right": "red",
+                "wrong1": "kitten",
+                "wrong2": "singing",
+                "wrong3": "Alexander"
+            }
+}

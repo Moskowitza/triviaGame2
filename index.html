@@ -1,0 +1,45 @@
+<html>
+
+<head>
+</head>
+
+<body>
+  <div id="start">
+    <button id="startBtn" type="button" class="btn btn-success btn-lg">start</button>
+  </div>
+  <div id="trivia">
+    <div id="timeleft">Time left goes here</div>
+    <div id="question">questions go here</div>
+    <div class="btn-group" data-toggle="buttons">
+      <label class="btn btn-primary active">
+        <input type="radio" name="options" id="option1" autocomplete="off"> answer 1
+      </label>
+      <label class="btn btn-primary">
+        <input type="radio" name="options" id="option2" autocomplete="off"> answer 2
+      </label>
+      <label class="btn btn-primary">
+        <input type="radio" name="options" id="option3" autocomplete="off"> answer 3
+      </label>
+    </div>
+
+  </div>
+  <div id="answer">
+      <div id="timeleft">timeLeft is paused</div>
+      <div id="answer">Right or Wrong</div>
+      <div id="answerGif">gif goes here</div>
+  </div>
+  <div id="results">
+    <div id="score">right, wrong, unanswered</div>
+    <button id="resetBtn" type="button" class="btn btn-success btn-lg">Start over</button>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+  <!-- my script *AFTER jQUERY* -->
+  <script src="assets/javascript/trivia.js"></script>
+</body>
+
+</html>
